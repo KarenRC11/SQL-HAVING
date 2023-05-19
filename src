@@ -5,3 +5,5 @@ FROM s_emp
 GROUP BY title  
 HAVING COUNT(title) >2;
 
+--Solo nos interesna los que tienen más de 2 personas en el puesto, por eso el HAVING COUNT mayor a 2
+
