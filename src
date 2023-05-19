@@ -1,0 +1,7 @@
+--Este ejemplo muestra los puestos (title) contando cuántas personas están en los diferentes puestos, esto último lo hace la cláusula GROUP BY.  
+
+SELECT title PUESTOS, COUNT(tilte) "CANTIDAD DE EMPLEADOS"  
+FROM s_emp  
+GROUP BY title  
+HAVING COUNT(title) >2;
+
